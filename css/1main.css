@@ -67,7 +67,7 @@ img {
     width: 50px;
     margin: 0 auto;
     color: #f9f9f9;
-    background-color: #fd8532;
+    background-color: #FFCE54;
     position: fixed;
     height: 100%;
     padding-top: 60px;
@@ -81,16 +81,16 @@ img {
 }
 .menu .item.active {
 /*    color: #427CFF;*/
-    color: #7da4b7;
+    color: #4FC1E9;
 }
 .first.active {
-	color: #da3c93 !important;
+	color: #EC87C0 !important;
 }
 .third.active {
-	color: #cbe8f4 !important;
+	color: #AC92EC !important;
 }
 .fourth.active {
-	color: #cbe8f4 !important;
+	color: #ED5565 !important;
 }
 .menu div span {
     font-size: 40px;
@@ -137,10 +137,6 @@ p.desc:last-child {
     width: 100%;
     opacity: 0.7;
 }
-.middleline.black {
-    border-color: #444444;
-    border-width: 2px 0 0;
-}
 
 .timeline {
     margin: 0px auto;
@@ -155,7 +151,7 @@ p.desc:last-child {
     width: 100%;
 }
 .timeline .year {
-    background-color: #7da4b7;
+    background-color: #DA4453;
     font-size: 14px;
     line-height: 4;
     max-width: 4em;
@@ -180,10 +176,10 @@ p.desc:last-child {
     list-style-type: none;
     display: block;
     padding: 1.3em;
-    background: #7da4b7; /*#189764;*/
+    background: #DA4453; /*#189764;*/
     z-index: 15;
     color: #f3f3f3;
-    border: 1px solid #7da4b7;
+    border: 1px solid #DA4453;
     text-decoration: none;
     -webkit-transition: background .15s linear;
     -moz-transition: background .15s linear;
@@ -195,11 +191,11 @@ p.desc:last-child {
 /*    color: #ffb403;*/
 /*    opacity: 0.9;*/
     margin-bottom: 0;
-    color: #444444;
+    color: #d2d2d2;
 }
 .timeline .milestone p {
     margin-top: 1em;
-    color: #222222;
+    color: #ffffff;
 }
 .timeline .milestone span {
 /*    color: #ffb403;*/
@@ -215,12 +211,12 @@ p.desc:last-child {
     border-radius: 0;
     width: 25px;
     height: 13px;
-    background: #7da4b7;
+    background: #DA4453;
     top: 1.8em;
     left: -7%;
     content: " ";
     position: absolute;
-    border: 5px solid #bfe0ef;
+    border: 5px solid #ED5565;
 }
 .timeline .milestone:nth-child(2n) {
     float: left;
@@ -236,7 +232,7 @@ p.desc:last-child {
 }
 
 #section1 {
-    background-color: #da3c93;
+    background-color: #EC87C0;
 }
 #section1 h1 {
     padding-top: 100px;
@@ -258,7 +254,7 @@ p.desc:last-child {
 #section2 {
     padding-top: 100px;
     padding-bottom: 50px;
-    background-color: #7da4b7;
+    background-color: #4FC1E9;
 }
 #section2 h2, #section2 p {
     color: #ffffff;
@@ -270,12 +266,10 @@ p.desc:last-child {
 #section3 {
     padding-top: 50px;
     padding-bottom: 50px;
-    background-color: #b9ddec;
-    
-/*    text-shadow: 1px 1px 0px #7da4b7;*/
+    background-color: #AC92EC;
 }
 #section3 h2, #section3 h3, #section3 p {
-    color: #444444;
+    color: #ffffff;
     opacity: 1;
     font-family: 'Open Sans', sans-serif;
     margin-bottom: 20px;
@@ -290,7 +284,7 @@ p.desc:last-child {
 #section4 {
     padding-top: 100px;
     padding-bottom: 50px;
-    background-color: #b9ddec; /*4FC1E9;*/
+    background-color: #ED5565; /*4FC1E9;*/
 }
 
 .progress {
