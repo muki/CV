@@ -40,6 +40,14 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 300;
     font-style: normal;
 }
+a {
+    color: #ffffff;
+    text-decoration: underline;
+}
+a:hover {
+    color: #ffffff;
+    opacity: 0.6;
+}
 img {
     max-width: 100%;
     height: auto;
@@ -235,6 +243,10 @@ p.desc:last-child {
 #section1 h3 {
     color: #ffffff;
     opacity: 0.6;
+}
+.pikcur {
+    margin-top: 120px;
+    right: 50px;
 }
 #section2 {
     padding-top: 100px;
